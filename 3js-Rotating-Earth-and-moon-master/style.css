@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+:root {
+  --background: rgba(55, 58, 57, 0.85);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+canvas{
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+}
+

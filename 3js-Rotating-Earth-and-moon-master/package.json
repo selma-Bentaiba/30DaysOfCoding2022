@@ -1,0 +1,15 @@
+{
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.3.7"
+  },
+  "dependencies": {
+    "mathjs": "^9.4.2",
+    "three": "^0.129.0"
+  }
+}
