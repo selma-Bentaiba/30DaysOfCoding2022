@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Task List 2022 </title>
+    <link rel="stylesheet" href="do.css">
+</head>
+<body>
+    <header>          
+ <h1>Task List 2022</h1>
+        <form id="new-task-fom">
+    <input type="text" name="new-task-input" id="new-task-input" placeholder="What do you have planned ? "/>
+    <input type="submit" id="new-task-submit" value="Add Task"/>
+        </form>
+ 
+    </header>
+    <main>
+        <section class="task-list">
+            <h2>Tasks</h2>
+            <div id="tasks">
+                <div class="task">
+                    <div class="content">
+                        <input type="text"
+                        class="text"
+                        value=" A new task"
+                        readonly     />
+
+                    </div>
+                    <div class="actions">
+                        <button class="edit">EDIT</button>
+                        <button class="delete">DELETE</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+    </main>
+
+
+
+       <script src="do.js"></script> 
+</body>
+</html>
